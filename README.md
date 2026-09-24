@@ -27,6 +27,7 @@ Then open `http://localhost:8000` in your browser.
 - `assets/work-sheets.js`: project popup and image zoom behavior.
 - `assets/portfolio/`: full-resolution sample screenshots and thumbnails.
 - `assets/logos/` and `assets/tool-logos/`: company and software logos.
+- `assets/favicon.svg`: lowercase n browser-tab icon in the website colours.
 - `assets/noor-header-logo.webp`: supplied Noor wordmark, recoloured for the theme by CSS.
 
 The two contact buttons link to:
