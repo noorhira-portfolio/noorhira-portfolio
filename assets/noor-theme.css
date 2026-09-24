@@ -1,0 +1,213 @@
+#noor-light-preview{--bg:#fbf7ee;--fg:#073d33;--muted:#617a70;--orange:#073d33;--line:#d7d9cd;--card:#f8f4e9;background:#fbf7ee;color:#073d33;font-family:Arial,Helvetica,sans-serif}
+#noor-light-preview .hero-screen{background:#fbf7ee;background-image:radial-gradient(ellipse at 35% 45%,#fffdf78a,transparent 65%)}
+#noor-light-preview .hero-screen:before{display:none}
+#noor-light-preview .noise{display:none}
+#noor-light-preview .hero-screen .nav{border-color:#dadcd0}
+#noor-light-preview .hero-screen .brand{font-family:Georgia,'Times New Roman',serif;font-size:42px;font-weight:700;letter-spacing:-2.5px;color:#073d33;line-height:1}
+#noor-light-preview .hero-screen .brand span{color:#758d78}
+#noor-light-preview .hero-screen .menu a{color:#234d40}
+#noor-light-preview .hero-screen .menu a:hover,#noor-light-preview .hero-screen .menu a[aria-current]{color:#073d33}
+#noor-light-preview .menu-btn{color:#073d33;background:transparent}
+#noor-light-preview .hero-credentials{gap:9px}
+#noor-light-preview .hero-badge{background:#fdfaf3;border-color:#d7d9cd;color:#173f34;box-shadow:none}
+#noor-light-preview .hero-badge>span,#noor-light-preview .hero-credential-divider{color:#174c3c}
+#noor-light-preview .hero-greeting{color:#073d33;font-weight:600}
+#noor-light-preview .hero h1,#noor-light-preview .hero h1 span{color:#073d33}
+#noor-light-preview .hero-sub,#noor-light-preview .section-copy,#noor-light-preview .work-heading p,#noor-light-preview .about-copy,#noor-light-preview .contact-copy p{color:#61786e}
+#noor-light-preview .hero-note{color:#657b70}
+#noor-light-preview .hero-note strong{color:#124936}
+#noor-light-preview .hero-service-lines p>span:not(.service-separator){background:#fdfaf3;border-color:#d7d9cd;color:#194c3d;border-radius:5px}
+#noor-light-preview .hero .button{background:#073d33;color:#fffdf6;border-color:#073d33}
+#noor-light-preview .hero .button:hover{background:#195343}
+#noor-light-preview .hero .button-outline{background:transparent;color:#073d33;border-color:#315e4c}
+#noor-light-preview .hero .button-outline:hover{background:#edf0e2}
+#noor-light-preview .client-strip{background:#fbf7ee;border-color:#d7d9cd}
+#noor-light-preview .client-strip h2,#noor-light-preview .client-name{color:#214d40}
+#noor-light-preview .client-art,#noor-light-preview .client-aramsco .client-art,#noor-light-preview .client-dagmar .client-art,#noor-light-preview .client-icgo .client-art{background:transparent;border:0;box-shadow:none;border-radius:0}
+#noor-light-preview .client-aramsco img,#noor-light-preview .client-dagmar img,#noor-light-preview .client-icgo img{mix-blend-mode:multiply}
+#noor-light-preview .client-art img[alt="PIMTek"]{clip-path:polygon(50% 11%,86% 32%,86% 72%,50% 92%,14% 71%,14% 32%);border-radius:0;transform:scale(1.17)}
+#noor-light-preview .jurie-mark{color:#073d33}
+#noor-light-preview .client-voice img{filter:brightness(0) saturate(100%) invert(18%) sepia(27%) saturate(1159%) hue-rotate(112deg) brightness(92%);opacity:1}
+#noor-light-preview .section,#noor-light-preview .facts,#noor-light-preview .contact-brief,#noor-light-preview footer{border-color:#d7d9cd}
+#noor-light-preview .section-kicker,#noor-light-preview .num,#noor-light-preview .section-title,#noor-light-preview .contact h2{color:#073d33}
+#noor-light-preview .work-divider{color:#6a7f70}
+#noor-light-preview .work-divider:after{background:#d7d9cd}
+#noor-light-preview .work-card{background:#fcfaf4;border-color:#d4d9cc;box-shadow:none}
+#noor-light-preview .work-card:hover{border-color:#7b9b86;box-shadow:0 8px 20px #183b2c0a}
+#noor-light-preview .work-thumb{background:#eaeedd}
+#noor-light-preview .work-number,#noor-light-preview .work-kicker{color:#52755e}
+#noor-light-preview .project-sheet-preview{border-color:#bbc9b6;box-shadow:0 5px 14px #1436240b;background:#f5f4e8}
+#noor-light-preview .work-title{color:#103f32}
+#noor-light-preview .work-desc,#noor-light-preview .work-foot{color:#5c7866}
+#noor-light-preview .work-arrow{border-color:#b4c5b2;color:#285b43}
+#noor-light-preview .work-open:hover .work-arrow{color:#fffdf5;background:#174c38}
+#noor-light-preview .service-card{background:#fcfaf4;border-color:#d5d9cb}
+#noor-light-preview .service-card-top,#noor-light-preview .service-card h3{color:#194e3b}
+#noor-light-preview .service-card-top .mono{color:#759079}
+#noor-light-preview .service-card p{color:#617769}
+#noor-light-preview .process-section .mp-step{background:#fcfaf4;border-color:#d1d8c8}
+#noor-light-preview .process-section .mp-top,#noor-light-preview .process-section .mp-step h3{color:#174b37}
+#noor-light-preview .process-section .mp-number{color:#738b76}
+#noor-light-preview .process-section .mp-description,#noor-light-preview .process-section .mp-tools,#noor-light-preview .process-section .mp-foot{color:#627969;border-color:#d3dbca}
+#noor-light-preview .process-section .mp-foot strong{color:#1d503c}
+#noor-light-preview .process-section .mp-step.mp-active{border-color:#4f795e;background:#edf2e3;box-shadow:inset 0 0 20px #4c82500a}
+#noor-light-preview .process-section .mp-routes path{stroke:#698e75}
+#noor-light-preview .process-section .mp-dot{fill:#225740;stroke:#0b3a2b}
+#noor-light-preview .process-section .mp-dot-halo{fill:#4c8250}
+#noor-light-preview .fact strong{color:#073d33}
+#noor-light-preview .fact span{color:#647b6c}
+#noor-light-preview #about>.tools.clean-tool-logos{border-color:#d3dbca}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand img{filter:brightness(0) saturate(100%) invert(18%) sepia(27%) saturate(1159%) hue-rotate(112deg) brightness(92%)}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand-linkedin span{color:#5c7866}
+#noor-light-preview .contact-label{background:#073d33;border-color:#073d33;color:#fffdf5}
+#noor-light-preview .contact-label:hover{background:#235842}
+#noor-light-preview .contact-brief strong,#noor-light-preview .contact .text-link{color:#1a4e37}
+#noor-light-preview footer{color:#657c6c}
+#noor-light-preview .sheet-modal{background:#fbf7ee;color:#143f32;border-color:#bbcab7}
+#noor-light-preview .modal-head{background:#fbf7ee;border-color:#d2dac8}
+#noor-light-preview .modal-label,#noor-light-preview .project-summary{color:#587361}
+#noor-light-preview .modal-close{color:#124b36;border-color:#aebfa7}
+#noor-light-preview .modal-close:hover{background:#e8edde}
+#noor-light-preview .project-view-tools{background:#e8edde;color:#28563c;border-color:#c3cfba}
+#noor-light-preview .sheet-zoom{background:#f8faef;color:#224f36;border-color:#a7bea0}
+#noor-light-preview .project-image-scroll{border-color:#c3cfba}
+#noor-light-preview .sheet-modal::backdrop{background:#0a2e2470}
+#noor-light-preview #lead-smooth-flow .flow-route{stroke:#718b75}
+#noor-light-preview #lead-smooth-flow .box-frame{fill:#fcfaf3;stroke:#d0d5c7;stroke-width:1}
+#noor-light-preview #lead-smooth-flow .flow-diagram>image{filter:url(#noor-workflow-tones)!important}
+#noor-light-preview #lead-smooth-flow .flow-diagram>image.teal-workflow-icons{filter:url(#noor-semantic-ink)!important}
+#noor-light-preview #lead-smooth-flow .flow-diagram>image.noor-brand-icons{filter:url(#noor-brand-alpha)!important}
+#noor-light-preview #lead-smooth-flow .box-light{fill:#507758;fill-opacity:.07;stroke:#6a8b68}
+#noor-light-preview #lead-smooth-flow .flow-point{fill:#275a40;stroke:#f5f8e8}
+#noor-light-preview #lead-smooth-flow .flow-halo{fill:#49714d}
+#noor-light-preview #lead-smooth-flow .flow-tail{stroke:#4a7554}
+#noor-light-preview .skip-link{background:#164c38;color:#fffcf3}
+@media(max-width:800px){#noor-light-preview .hero-screen .menu{background:#fbf7ee;border-color:#cad4c1;box-shadow:0 12px 24px #1b34261a}}
+
+
+#noor-light-preview .hero-screen .brand{display:inline-flex;align-items:center;width:132px;height:44px;letter-spacing:0;line-height:1}
+#noor-light-preview .hero-screen .brand img{display:block;width:132px;height:auto;max-height:42px;object-fit:contain;object-position:left center}
+#noor-light-preview .hero-badge{background:#104c3f;border-color:#104c3f;color:#fff7e6;box-shadow:0 2px 5px #164d3710;border-radius:7px;font-size:13px;padding:7px 11px}
+#noor-light-preview .hero-badge>span{color:#e0eacc}
+#noor-light-preview .hero-service-lines p>span:not(.service-separator){background:#104c3f;border:1px solid #104c3f;color:#fff7e6;box-shadow:0 2px 5px #164d3710;border-radius:7px;padding:8px 11px;min-height:35px;font-size:13px;line-height:1.45}
+#noor-light-preview .hero-service-lines{gap:8px}
+#noor-light-preview .hero-sub{font-size:16px;color:#4e685c;line-height:1.65}
+#noor-light-preview .hero-note{color:#506b5c;font-size:13px}
+#noor-light-preview .hero-workflow{height:auto;max-height:none;width:100%;max-width:450px;margin:0;align-self:center}
+#noor-light-preview .hero-workflow #lead-smooth-flow{height:auto;max-width:none;display:block}
+#noor-light-preview .hero-workflow #lead-smooth-flow .flow-stage{display:block;flex:none}
+#noor-light-preview .hero-workflow #lead-smooth-flow .flow-diagram{width:100%;height:auto;max-height:none}
+#noor-light-preview #lead-smooth-flow .box-frame{fill:#104c3f;stroke:#255e4d;stroke-width:1;filter:drop-shadow(0px 3px 3px #17422c0b)}
+#noor-light-preview #lead-smooth-flow .flow-route{stroke:#64856c;stroke-width:1.2}
+#noor-light-preview #lead-smooth-flow .box-light{fill:#e0eacc;fill-opacity:.09;stroke:#aabf93;stroke-width:1.35}
+#noor-light-preview #lead-smooth-flow .flow-tail{stroke:#4c7651}
+#noor-light-preview #lead-smooth-flow .flow-point{fill:#5c865b;stroke:#f8f3de}
+#noor-light-preview #lead-smooth-flow .flow-halo{fill:#64865a}
+#noor-light-preview .client-strip{background:#f8f5ea;height:116px;padding:11px 0 8px;border-color:#d8ddce}
+#noor-light-preview .hero-screen{grid-template-rows:72px auto 116px}
+#noor-light-preview .client-strip-head{margin-bottom:9px}
+#noor-light-preview .client-art,#noor-light-preview .client-aramsco .client-art,#noor-light-preview .client-dagmar .client-art,#noor-light-preview .client-icgo .client-art{height:42px;background:#f3f2e6;border:1px solid #dce0d0;border-radius:7px;box-shadow:none}
+#noor-light-preview .client-logo{height:65px;gap:6px}
+#noor-light-preview .client-name{font-size:11px;color:#2f4e3d}
+#noor-light-preview .client-art img[alt="Ceribell"],#noor-light-preview .client-voice img{filter:brightness(0);opacity:1}
+#noor-light-preview .jurie-mark{color:#141b16}
+@media(max-width:760px){#noor-light-preview .hero-grid{grid-template-columns:1fr;gap:28px}#noor-light-preview .hero-copy{max-width:580px}#noor-light-preview .hero h1{font-size:clamp(25px,5vw,36px)}#noor-light-preview .hero-workflow{max-width:470px;justify-self:center}}
+@media(max-width:620px){#noor-light-preview .hero-screen{grid-template-rows:70px auto 116px}#noor-light-preview .hero-screen .brand{width:115px}#noor-light-preview .hero-screen .brand img{width:115px}#noor-light-preview .hero-sub{font-size:15px}#noor-light-preview .hero-service-lines p>span:not(.service-separator){font-size:12px;padding:7px 9px}#noor-light-preview .hero-workflow{height:auto}}
+
+#noor-light-preview .hero-badge,#noor-light-preview .hero-service-lines p>span:not(.service-separator){background:linear-gradient(115deg,#e6ebdc,#dce5d0);border-color:#b9c9ae;color:#193e34;box-shadow:0 4px 12px #31472b08,inset 0 1px 0 #ffffff88;border-radius:8px}
+#noor-light-preview .hero-badge>span{color:#345b43}
+#noor-light-preview #lead-smooth-flow .box-frame{fill:#dfe6d6;stroke:#b9c9ae;stroke-width:1.8;filter:drop-shadow(0px 5px 5px #31472b0d)}
+#noor-light-preview #lead-smooth-flow .flow-route{stroke:#8fa883;stroke-width:1.7}
+#noor-light-preview #lead-smooth-flow .box-light{fill:#41643e;fill-opacity:.07;stroke:#52744c;stroke-width:2}
+#noor-light-preview #lead-smooth-flow .flow-point{fill:#345b43;stroke:#fbf7ee}
+#noor-light-preview #lead-smooth-flow .flow-halo{fill:#628456}
+
+
+/* Actual text stays regular-weight; brand colours remain intact. */
+#noor-light-preview .workflow-copy text{font-weight:400;letter-spacing:0;fill:#193e34}
+#noor-light-preview .client-voice .client-art img{filter:brightness(0)!important;opacity:1}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand img[alt="Smartlead"]{height:26px;width:auto;max-width:100%;object-fit:contain}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand img{max-width:100%}
+html{background:#fbf7ee}
+@media(min-width:901px){
+#noor-light-preview .hero-screen{height:100svh;min-height:730px;grid-template-rows:72px minmax(0,1fr) 116px}
+#noor-light-preview .hero{min-height:0;height:100%;padding-top:16px;padding-bottom:16px}
+#noor-light-preview .hero-grid{height:100%;align-items:center}
+#noor-light-preview .hero-workflow{height:100%;max-height:100%;padding:0;max-width:520px;justify-self:center}
+#noor-light-preview .hero-workflow #lead-smooth-flow,#noor-light-preview .hero-workflow #lead-smooth-flow .flow-stage{height:100%;width:100%}
+#noor-light-preview .hero-workflow #lead-smooth-flow .flow-diagram{height:100%;max-height:100%;width:100%}
+}
+@media(max-width:900px){#noor-light-preview .hero-screen{height:auto;min-height:0;max-height:none}#noor-light-preview .hero-workflow{padding:0}}
+
+/* Reference palette: warm ivory, soft oat surfaces, terracotta and charcoal. */
+#noor-light-preview{--bg:#efecd8;--fg:#2c2d23;--muted:#6c6c57;--orange:#bc5834;--line:#d4cfb8;--card:#e7e2cb;background:#efecd8;color:#2c2d23}
+#noor-light-preview .hero-screen{background:#efecd8;background-image:none}
+#noor-light-preview .hero-screen .brand img{filter:brightness(0) saturate(100%) invert(38%) sepia(61%) saturate(783%) hue-rotate(333deg) brightness(89%) contrast(92%)}
+#noor-light-preview .hero-screen .nav{border-color:#d8d3bc}
+#noor-light-preview .hero-screen .menu a,#noor-light-preview .menu-btn{color:#464735}
+#noor-light-preview .hero-screen .menu a:hover,#noor-light-preview .hero-screen .menu a[aria-current]{color:#a24c2e}
+#noor-light-preview .hero-greeting{color:#676853}
+#noor-light-preview .hero h1,#noor-light-preview .hero h1 span{color:#292b20}
+#noor-light-preview .hero h1 .lead-accent{color:#bc5834}
+#noor-light-preview .hero-sub,#noor-light-preview .hero-note,#noor-light-preview .section-copy,#noor-light-preview .work-heading p,#noor-light-preview .about-copy,#noor-light-preview .contact-copy p{color:#64664f}
+#noor-light-preview .hero-note strong{color:#424633}
+#noor-light-preview .hero-badge{background:#f6ddcb;color:#85462c;border:1px solid #dfbca4;border-radius:999px;box-shadow:none}
+#noor-light-preview .hero-badge>span,#noor-light-preview .hero-credential-divider{color:#a45132}
+#noor-light-preview .hero-service-lines p>span:not(.service-separator){background:#e5e0c7;color:#974c2f;border-color:#d1ccb1;box-shadow:inset 0 1px 0 #fff8;border-radius:10px}
+#noor-light-preview .hero .button{background:#c46139;color:#fff7e8;border-color:#c46139;border-radius:10px}
+#noor-light-preview .hero .button:hover{background:#ab4f2e}
+#noor-light-preview .hero .button-outline{background:transparent;color:#3e4030;border-color:#c8c3ac}
+#noor-light-preview .hero .button-outline:hover{background:#e6e0c8}
+#noor-light-preview #lead-smooth-flow .box-frame{fill:#e4dfc7;stroke:#c8c2a9;stroke-width:1.8;filter:drop-shadow(0px 5px 5px #51462d0b)}
+#noor-light-preview #lead-smooth-flow .workflow-copy text{font-weight:400;fill:#383b2c}
+#noor-light-preview #lead-smooth-flow .flow-route{stroke:#a5a084;stroke-width:1.7}
+#noor-light-preview #lead-smooth-flow .box-light{fill:#bc5834;fill-opacity:.055;stroke:#bc724d;stroke-width:2}
+#noor-light-preview #lead-smooth-flow .flow-point{fill:#be5d38;stroke:#faf1df}
+#noor-light-preview #lead-smooth-flow .flow-tail{stroke:#bb6b46}
+#noor-light-preview #lead-smooth-flow .flow-halo{fill:#ce8256}
+#noor-light-preview .client-strip{background:#efecd8;border-color:#d4cfb8}
+#noor-light-preview .client-strip h2,#noor-light-preview .client-name{color:#666851}
+#noor-light-preview .client-art,#noor-light-preview .client-aramsco .client-art,#noor-light-preview .client-dagmar .client-art,#noor-light-preview .client-icgo .client-art{background:#e5e0c9;border-color:#d4ceb6}
+#noor-light-preview .client-voice .client-art img,#noor-light-preview .client-art img[alt="Ceribell"]{filter:brightness(0)!important}
+#noor-light-preview .jurie-mark{color:#292b23}
+#noor-light-preview .section,#noor-light-preview .facts,#noor-light-preview .contact-brief,#noor-light-preview footer{border-color:#d4cfb8}
+#noor-light-preview .section-kicker,#noor-light-preview .num{color:#aa5030}
+#noor-light-preview .section-title,#noor-light-preview .contact h2,#noor-light-preview .fact strong{color:#2b2d21}
+#noor-light-preview .work-divider,#noor-light-preview .fact span{color:#6e7058}
+#noor-light-preview .work-divider:after{background:#d4cfb8}
+#noor-light-preview .work-card,#noor-light-preview .service-card{background:#e8e3ce;border-color:#d1cbb2}
+#noor-light-preview .work-card:hover{border-color:#b8704e;box-shadow:0 8px 20px #593f250c}
+#noor-light-preview .work-thumb{background:#ded9be}
+#noor-light-preview .work-number,#noor-light-preview .work-kicker{color:#996043}
+#noor-light-preview .project-sheet-preview{border-color:#c4bda4;background:#efecd8}
+#noor-light-preview .work-title,#noor-light-preview .service-card h3{color:#36392b}
+#noor-light-preview .work-desc,#noor-light-preview .work-foot,#noor-light-preview .service-card p{color:#696d55}
+#noor-light-preview .work-arrow{border-color:#c3b29a;color:#a34c2d}
+#noor-light-preview .work-open:hover .work-arrow{background:#ba5834;color:#fff8e8}
+#noor-light-preview .service-card-top,#noor-light-preview .service-card-top .mono{color:#b15a39}
+#noor-light-preview .process-section .mp-step{background:#e8e3ce;border-color:#cec6ad}
+#noor-light-preview .process-section .mp-top,#noor-light-preview .process-section .mp-step h3{color:#3c3f2d}
+#noor-light-preview .process-section .mp-number{color:#a55b3b}
+#noor-light-preview .process-section .mp-description,#noor-light-preview .process-section .mp-tools,#noor-light-preview .process-section .mp-foot{color:#6c6e56;border-color:#d0c9ae}
+#noor-light-preview .process-section .mp-foot strong{color:#454a33}
+#noor-light-preview .process-section .mp-step.mp-active{border-color:#b96945;background:#eee0c9;box-shadow:inset 0 0 20px #b65c2908}
+#noor-light-preview .process-section .mp-routes path{stroke:#a49370}
+#noor-light-preview .process-section .mp-dot{fill:#be5d38;stroke:#a55131}
+#noor-light-preview .process-section .mp-dot-halo{fill:#d7895b}
+#noor-light-preview #about>.tools.clean-tool-logos{border-color:#d4cfb8}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand img{filter:brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(786%) hue-rotate(32deg) brightness(94%);max-width:100%}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand img[alt="Smartlead"]{height:26px;width:auto;max-width:100%;object-fit:contain}
+#noor-light-preview #about>.tools.clean-tool-logos .tool-brand-linkedin span{color:#717259}
+#noor-light-preview .contact-label{background:#c46139;border-color:#c46139;color:#fff8e9}
+#noor-light-preview .contact-label:hover{background:#aa4d2b}
+#noor-light-preview .contact-brief strong,#noor-light-preview .contact .text-link{color:#a45131}
+#noor-light-preview footer{color:#72725b}
+#noor-light-preview .sheet-modal,#noor-light-preview .modal-head{background:#efecd8;color:#373b2b;border-color:#c5bfa5}
+#noor-light-preview .modal-label,#noor-light-preview .project-summary{color:#6a6e52}
+#noor-light-preview .modal-close,#noor-light-preview .sheet-zoom{color:#a04b2c;border-color:#bcac90;background:#f3ecd8}
+#noor-light-preview .modal-close:hover,#noor-light-preview .project-view-tools{background:#e3dbc1;color:#625d44;border-color:#c9bda1}
+#noor-light-preview .project-image-scroll{border-color:#c9bda1}
+#noor-light-preview .sheet-modal::backdrop{background:#29241975}
+#noor-light-preview .skip-link{background:#b75c38;color:#fff5e4}
+html{background:#efecd8}
+@media(max-width:800px){#noor-light-preview .hero-screen .menu{background:#efecd8;border-color:#cec6ac}}

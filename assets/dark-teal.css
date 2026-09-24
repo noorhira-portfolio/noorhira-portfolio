@@ -1,0 +1,87 @@
+:root{--bg:#061719;--fg:#edf6f3;--muted:#a1b9b6;--orange:#5dd1bf;--line:#244244;--card:#0c2427}
+html,body{background:var(--bg);color:var(--fg)}
+::selection{background:#5dd1bf;color:#052022}
+.hero-screen{background-color:#081f22;background-image:linear-gradient(105deg,rgba(3,24,27,.94),rgba(6,35,37,.79)),url('hero-texture.webp')}
+.hero-screen:before{background:linear-gradient(90deg,rgba(2,19,22,.26),transparent 75%)}
+.hero-screen .nav{border-bottom:1px solid rgba(125,194,186,.12)}
+.hero-screen .menu{gap:26px}
+.hero-screen .menu a{position:relative;padding:9px 0;font-size:14px;color:#b7ceca}
+.hero-screen .menu a:after{content:"";position:absolute;bottom:2px;left:0;right:0;height:1px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.hero-screen .menu a:hover,.hero-screen .menu a[aria-current="location"]{color:#ecfffb}
+.hero-screen .menu a:hover:after,.hero-screen .menu a[aria-current="location"]:after{transform:scaleX(1)}
+.hero .eyebrow,.hero h1 span,.brand span,.section-kicker,.num,.status,.contact h2 span{color:var(--orange)}
+.hero .button{background:var(--orange);border-color:var(--orange);color:#042522}
+.hero .button:hover{background:#86e5d5}
+.hero .button-outline{background:transparent;color:#dcf0eb;border-color:#527471}
+.hero .button-outline:hover{border-color:var(--orange);background:#123b3b}
+.hero-sub,.section-copy,.service-row p,.step p,.about-copy,.contact-copy p{color:#aec4c0}
+.hero-note,footer{color:#8da8a4}
+.client-strip{background:#071c1f;border-color:#254447}
+.client-strip h2,.client-name{color:#a9c3bf}
+.client-voice .client-art img{opacity:.86}
+.jurie-mark{color:#e4f3ee}
+.client-aramsco .client-art,.client-dagmar .client-art,.client-icgo .client-art{background:#edf4f1}
+.client-strip-head{min-height:18px}
+.hero-workflow #lead-smooth-flow{--flow-orange:#6ad5c2;color:#edf6f3;max-width:490px}
+#lead-smooth-flow .flow-route{stroke:#396f6b}
+#lead-smooth-flow .box-frame{fill:#112a2d;stroke:#476967}
+#lead-smooth-flow .flow-point{fill:#94ead6;stroke:#e2fff7}
+#lead-smooth-flow .flow-diagram>image{filter:saturate(.5)}
+.work-section{scroll-margin-top:28px}
+.work-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:36px;margin-bottom:36px}
+.work-heading .section-title{font-size:clamp(48px,6vw,88px)}
+.work-heading p{max-width:345px;margin:0;color:#abc3be;font-size:16px}
+.work-divider{display:flex;align-items:center;gap:22px;margin:0 0 34px;font:12px 'DM Mono',monospace;color:#80a5a0;text-transform:uppercase;letter-spacing:.08em}
+.work-divider:after{content:"";height:1px;flex:1;background:var(--line)}
+.work-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.work-card{min-width:0;border:1px solid #29484a;border-radius:18px;overflow:hidden;background:linear-gradient(140deg,#102e31,#0a2225);transition:transform .3s,border-color .3s,box-shadow .3s}
+.work-card:hover{transform:translateY(-5px);border-color:#578e85;box-shadow:0 18px 48px #0003}
+.work-open{width:100%;height:100%;display:flex;flex-direction:column;text-align:left;border:0;padding:0;background:transparent;color:inherit;font:inherit;cursor:pointer}
+.work-open:focus-visible{outline:3px solid var(--orange);outline-offset:-4px;border-radius:18px}
+.work-thumb{width:100%;height:264px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#174847,#0b292e);padding:34px 24px}
+.work-number{position:absolute;left:20px;top:16px;font:12px 'DM Mono',monospace;color:#92c6ba}
+.mini-sheet{display:block;width:94%;background:#eaf4ef;color:#264942;border:1px solid #adccc0;border-radius:6px;overflow:hidden;box-shadow:0 20px 35px #0003;transform:perspective(1000px) rotateY(-7deg) rotateX(5deg);transition:transform .4s}
+.work-card:hover .mini-sheet{transform:perspective(1000px) rotateY(0) rotateX(0) translateY(-3px)}
+.mini-bar{display:flex;align-items:center;gap:8px;background:#d1e7dc;padding:13px;font-size:12px;font-weight:500;border-bottom:1px solid #b4cec1}
+.mini-mark{width:14px;height:17px;border-radius:2px;background:#277b62;display:inline-block}
+.mini-row{display:grid;grid-template-columns:1.45fr 1fr .8fr;border-bottom:1px solid #cbded4;font-size:11px;line-height:1.4}
+.mini-row>span{padding:10px 9px;border-right:1px solid #cbded4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-row.is-head{font-weight:500;background:#e0eee7;color:#507267}
+.mini-tabs{display:block;padding:7px 14px;color:#2c6e59;background:#e0eee7;font-size:10px}
+.work-info{padding:25px 27px 26px;display:flex;flex:1;flex-direction:column;width:100%}
+.work-kicker{font:11px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#7dada3}
+.work-title{font-size:28px;font-weight:500;letter-spacing:-.04em;line-height:1.2;display:block;margin:11px 0 12px}
+.work-desc{font-size:15px;line-height:1.6;color:#a6c1bb;display:block;max-width:460px}
+.work-foot{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:26px;font-size:12px;color:#9ec8be}
+.work-tags{display:flex;gap:8px;flex-wrap:wrap}
+.work-tags>span{border:1px solid #355852;border-radius:20px;padding:5px 10px}
+.work-arrow{width:35px;height:35px;display:grid;place-items:center;border:1px solid #406e65;border-radius:50%;font-size:22px;color:#9ce6d3;flex:none}
+.work-open:hover .work-arrow{background:var(--orange);color:#062622}
+.sample-disclosure{font-size:13px;color:#8ea9a3;margin:25px 0 0}
+.service-row,.facts,.process,.step,.section{border-color:var(--line)}
+.tool{border-color:#355653;color:#b5d3ca}.tool:hover{background:var(--orange);color:#062624;border-color:var(--orange)}
+.contact-label{background:var(--orange);color:#062624}
+.contact-brief{border-color:var(--line)}
+.sheet-modal{color:#e7f6f0;background:#0b272a;border:1px solid #42665f;border-radius:18px;padding:0;width:min(1100px,94vw);max-height:88svh;box-shadow:0 30px 120px #0008;overflow:auto}
+.sheet-modal::backdrop{background:rgba(2,15,18,.82);backdrop-filter:blur(7px)}
+.sheet-modal[open]{animation:sheet-enter .22s ease-out}
+@keyframes sheet-enter{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+.modal-head{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 28px;border-bottom:1px solid #31524e}
+.modal-head h2{font-size:25px;letter-spacing:-.035em;margin:4px 0 0;font-weight:500}
+.modal-label{font:11px 'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:#80bcae}
+.modal-close{width:44px;height:44px;border:1px solid #496a63;border-radius:50%;background:transparent;color:#e9fbf4;font:28px Arial;cursor:pointer;flex:none}
+.modal-close:hover{background:#1b443e}
+.modal-body{padding:26px 28px 28px}
+.sheet-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;background:#d4e8de;color:#204e40;padding:14px 18px;border-radius:8px 8px 0 0;font-size:13px}
+.sheet-modal .sheet-scroll{background:#f5faf7;color:#183f34;border:1px solid #c5d9ce;border-top:0;border-radius:0 0 8px 8px;max-height:54svh}
+.sheet-modal table{font-family:Arial,sans-serif;font-size:14px;min-width:770px}
+.sheet-modal th{position:sticky;top:0;background:#e2eee7;color:#3d6354;font-size:11px;font-weight:600;z-index:1}
+.sheet-modal th,.sheet-modal td{padding:16px 20px!important;border:1px solid #d8e5dd}
+.sheet-modal tbody tr:nth-child(even){background:#edf5ef}
+.sheet-modal .sample-note{color:#9bb9ae;font-size:13px;line-height:1.6;margin-top:18px}
+body.sheet-open{overflow:hidden}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1050px){.hero-screen .menu{gap:19px}.hero-screen .menu a{font-size:13px}.work-thumb{height:230px;padding:34px 17px}.work-info{padding:22px}.work-title{font-size:25px}}
+@media(max-width:800px){.hero-screen .menu{background:#0b282b;border-color:#355650}.work-cards{gap:18px}.work-heading{align-items:flex-start;flex-direction:column;gap:22px}.work-heading p{max-width:480px}.work-thumb{height:210px}.mini-row{font-size:10px}.mini-row>span{padding:9px 7px}}
+@media(max-width:620px){.work-cards{grid-template-columns:1fr}.work-thumb{height:245px}.mini-row{font-size:11px}.work-heading .section-title{font-size:48px}.modal-head,.modal-body{padding:20px}.modal-head h2{font-size:21px}.sheet-modal{width:calc(100vw - 20px);max-height:92svh}.work-info{padding:23px}}
+@media(prefers-reduced-motion:reduce){.work-card,.mini-sheet{transition:none}.work-card:hover,.work-card:hover .mini-sheet{transform:none}.sheet-modal[open]{animation:none}}
