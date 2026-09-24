@@ -36,3 +36,5 @@ https://www.upwork.com/freelancers/~01ed14a1af49f7bd6f
 The workflow keeps original brand-icon colours and uses editable regular-weight SVG text. VoicePatrol displays in black. The Smartlead logo in “Behind the lists” uses the same monochrome theme colour as HubSpot and the other tool logos.
 
 Animations respect the browser's reduced-motion preference. The site includes the twelve existing project previews; the export preserves the full-resolution images.
+
+The desktop hero uses the available viewport height for the navigation, introduction, workflow and company strip. On narrow screens these elements stack without clipping. The header wordmark is 104px on desktop and 90px on mobile.

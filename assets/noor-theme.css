@@ -130,7 +130,7 @@
 #noor-light-preview #about>.tools.clean-tool-logos .tool-brand img{max-width:100%}
 html{background:#fbf7ee}
 @media(min-width:901px){
-#noor-light-preview .hero-screen{height:100svh;min-height:730px;grid-template-rows:72px minmax(0,1fr) 116px}
+#noor-light-preview .hero-screen{height:100svh;min-height:0;grid-template-rows:72px minmax(0,1fr) 116px}
 #noor-light-preview .hero{min-height:0;height:100%;padding-top:16px;padding-bottom:16px}
 #noor-light-preview .hero-grid{height:100%;align-items:center}
 #noor-light-preview .hero-workflow{height:100%;max-height:100%;padding:0;max-width:520px;justify-self:center}
@@ -211,3 +211,52 @@ html{background:#fbf7ee}
 #noor-light-preview .skip-link{background:#b75c38;color:#fff5e4}
 html{background:#efecd8}
 @media(max-width:800px){#noor-light-preview .hero-screen .menu{background:#efecd8;border-color:#cec6ac}}
+
+/* Fit navigation, hero and company strip into one desktop viewport. */
+#noor-light-preview .hero-screen .brand{width:104px;height:36px;flex:none}
+#noor-light-preview .hero-screen .brand img{width:104px;max-height:30px;height:auto}
+#noor-light-preview .hero-screen .nav{height:100%;min-height:0}
+#noor-light-preview .hero-grid,#noor-light-preview .hero-copy,#noor-light-preview .hero-workflow{min-height:0;min-width:0}
+#noor-light-preview .client-strip{height:104px;min-height:0;padding:8px 0;align-self:stretch}
+#noor-light-preview .client-strip-head{margin-bottom:7px;min-height:18px}
+#noor-light-preview .client-logo{height:62px;gap:5px}
+@media(min-width:901px){
+#noor-light-preview .hero-screen{height:100svh;min-height:0;max-height:none;grid-template-rows:64px minmax(0,1fr) 104px}
+#noor-light-preview .hero{height:100%;min-height:0;padding:12px 5.5%;margin:0 auto}
+#noor-light-preview .hero-grid{height:100%;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);align-items:center;gap:4%}
+#noor-light-preview .hero-copy{padding:0}
+#noor-light-preview .hero-workflow{height:100%;max-height:100%;align-self:stretch;padding:0}
+#noor-light-preview .hero-workflow #lead-smooth-flow,#noor-light-preview .hero-workflow #lead-smooth-flow .flow-stage{height:100%;min-height:0}
+#noor-light-preview .hero-workflow #lead-smooth-flow .flow-diagram{height:100%;width:100%;max-height:100%}
+#noor-light-preview .hero h1{font-size:clamp(28px,2.75vw,48px)}
+}
+@media(min-width:901px) and (max-height:740px){
+#noor-light-preview .hero-screen{grid-template-rows:56px minmax(0,1fr) 96px}
+#noor-light-preview .hero{padding-top:8px;padding-bottom:8px}
+#noor-light-preview .client-strip{height:96px;padding:5px 0}
+#noor-light-preview .client-strip-head{margin-bottom:5px}
+#noor-light-preview .hero-credentials{margin-bottom:10px}
+#noor-light-preview .hero-badge{font-size:12px;padding:5px 9px}
+#noor-light-preview .hero-greeting{font-size:22px;margin-bottom:9px}
+#noor-light-preview .hero h1{font-size:clamp(27px,2.65vw,40px);line-height:1.08;margin-bottom:13px}
+#noor-light-preview .hero-sub{font-size:15px;line-height:1.5;max-width:530px}
+#noor-light-preview .hero-service-lines{margin-top:13px;gap:6px}
+#noor-light-preview .hero-service-lines p{gap:6px}
+#noor-light-preview .hero-service-lines p>span:not(.service-separator){font-size:12px;min-height:29px;padding:5px 9px}
+#noor-light-preview .hero-actions{margin-top:15px;gap:14px}
+#noor-light-preview .hero .button{font-size:14px;min-height:42px;padding:10px 18px}
+#noor-light-preview .hero-note{font-size:12px;margin-top:11px}
+}
+@media(max-width:900px){
+#noor-light-preview .hero-screen{height:auto;min-height:0;grid-template-rows:64px auto 104px}
+#noor-light-preview .hero{height:auto;margin:0 auto;padding-top:24px;padding-bottom:28px}
+#noor-light-preview .hero-copy{padding:0}
+#noor-light-preview .hero-workflow{height:auto;min-height:0;max-height:none}
+#noor-light-preview .hero-workflow #lead-smooth-flow,#noor-light-preview .hero-workflow #lead-smooth-flow .flow-stage,#noor-light-preview .hero-workflow #lead-smooth-flow .flow-diagram{height:auto;max-height:none}
+}
+@media(max-width:620px){
+#noor-light-preview .hero-screen .brand,#noor-light-preview .hero-screen .brand img{width:90px}
+#noor-light-preview .hero-screen .brand img{max-height:26px}
+#noor-light-preview .hero-grid{gap:24px}
+#noor-light-preview .hero-service-lines p>span:not(.service-separator){white-space:normal}
+}
